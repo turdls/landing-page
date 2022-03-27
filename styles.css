@@ -16,7 +16,6 @@ header {
     padding-right: 200px;
     
 }
-
 .header {
     display:flex;
     justify-content:space-between;
@@ -25,14 +24,12 @@ header {
     flex-shrink: 1;
     
 }
-
 .header-links {
     list-style: none;
     display:flex;
     gap: 30px;
     font-size: 18px;
 }
-
 .content {
     display:flex;
     justify-content: space-between;
@@ -41,16 +38,13 @@ header {
 .awesomeinfo {
 color: #F9FAF8;
 }
-
 .awesometext {
     font-size: 48px;
     font-weight: 900;
 }
-
 .awesomesubtext {
     color:#F9FAF8;
 }
-
 .awesomepic {
     background-color: grey;
     display:flex;
@@ -63,7 +57,6 @@ color: #F9FAF8;
     font-size: 24px;
     color: #F9FAF8
 }
-
 .signup-button {
     border-radius: 4px;
     background-color: #3882F6;
@@ -74,7 +67,6 @@ color: #F9FAF8;
 /* END HEADER */
 
 /* GRID SECTION */
-
 .grid {
     display:flex;
     justify-content: center;
@@ -88,27 +80,23 @@ color: #F9FAF8;
     padding-top: 50px;
     
 }
-
 .random-info {
     text-align: center;
     color: #1F2937;
     font-weight: 900;
 }
-
 .grid-button {
     border-radius: 8px;
     width: 200px;
     height: 200px;
     border-color: #3882F6;
 }
-
 /* END GRID SECTION */
+
 /* QUOTE SECTION */
-.quotesection {
-    
+.quote-section {   
     padding: 200px;
-    background-color: #E5E7EB;
-    
+    background-color: #E5E7EB;   
 }
 .quote {
     font-size: 36px;
@@ -116,14 +104,39 @@ color: #F9FAF8;
     font-style: italic;
     width: 800px;
 }
-
-.quoteby {
+.quote-by {
     align-self: flex-end;
 }
-
-.quotecontainer {
+.quote-container {
     display:flex;
     justify-content: center;
     align-items: center;
 }
 /* END QUOTE SECTION */
+
+/* SIGN UP SECTION */
+.signup-section {
+    display:flex;
+    justify-content: center;
+
+}
+.signup-container {
+    background-color:#3882F6;
+    border-radius: 8px;
+    width: 800px;
+    height: 100px;
+    margin: 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.signup-button {
+    border-color: #E5E7EB;
+    border-radius: 8xp;
+    padding:8px;   
+}
+.signup-text {
+    color:white;
+}
+/* END SIGNUP SECTION */
