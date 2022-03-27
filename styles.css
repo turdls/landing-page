@@ -78,13 +78,13 @@ color: #F9FAF8;
 .grid {
     display:flex;
     justify-content: center;
-    gap: 5px;  
+    gap: 50px;  
     text-align: center;
     padding-bottom: 100px;
     flex-shrink: 1;
 }
 .gridcontainer {   
-    max-width: 300px;
+    max-width: 200px;
     padding-top: 50px;
     
 }
@@ -101,3 +101,29 @@ color: #F9FAF8;
     height: 200px;
     border-color: #3882F6;
 }
+
+/* END GRID SECTION */
+/* QUOTE SECTION */
+.quotesection {
+    
+    padding: 200px;
+    background-color: #E5E7EB;
+    
+}
+.quote {
+    font-size: 36px;
+    font-weight:100;
+    font-style: italic;
+    width: 800px;
+}
+
+.quoteby {
+    align-self: flex-end;
+}
+
+.quotecontainer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/* END QUOTE SECTION */
