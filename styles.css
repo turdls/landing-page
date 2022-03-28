@@ -140,3 +140,14 @@ color: #F9FAF8;
     color:white;
 }
 /* END SIGNUP SECTION */
+ 
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px;
+    color: white;
+}
